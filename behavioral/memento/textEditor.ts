@@ -58,8 +58,8 @@ past.addMemento(editor.createMemento());
 
 // undo
 editor.restoreFromMemento(past.getMemento(1));
-console.log(editor.getContent()); // Output: Hello,
+console.log(editor.getContent());
 
 // Redo
 editor.restoreFromMemento(past.getMemento(2));
-console.log(editor.getContent()); // Output: Hello, World!
+console.log(editor.getContent());
